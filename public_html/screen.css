@@ -1,0 +1,36 @@
+html, body {
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border-bottom: 1px solid grey;
+    padding: .5em;
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: rgba(0,0,0,.045);
+}
+
+#pagecount{
+    margin: 10px 0;
+    color: gray;
+    font-size: .8em;
+}
+
+button {
+    background-color: lightseagreen;
+    border: 1px solid rgb(5, 30, 29);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(5, 30, 29);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(76, 154, 150);
+}
